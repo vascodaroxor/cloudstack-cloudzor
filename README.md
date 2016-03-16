@@ -13,7 +13,9 @@ Cloudzor is a bash script to create, start, stop and destroy a large number of V
 * capacity - Show CloudStack Capacity
 
 ##Setup
-1. Just install CloudMonkey and configure your CloudStack account.
-2. chmod +x cloudzor.sh
-3. If you want to create VM with Cloudzor, edit cloudzor.sh and modify the new VM variables section to feet your system.
-(You can see all needed service offering with "./cloudzor.sh list")
+1. Install [CloudMonkey](https://github.com/apache/cloudstack-cloudmonkey)
+2. Configure your CloudStack account in CloudMonkey
+3. Configure CloudMonkey table display (add a line "display = table" in .cloudmonkey/config, or "set display table" in cli)
+4. chmod +x cloudzor.sh
+5. If you want to create VM with Cloudzor, edit cloudzor.sh and modify the new VM variables section to feet your system. (You can see all needed service offering with "./cloudzor.sh list")
+6. ./cloudzor.sh
